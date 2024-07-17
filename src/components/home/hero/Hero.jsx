@@ -9,19 +9,21 @@ const Hero = () => {
         <div className='container'>
           <div className='row'>
             <Heading subtitle='WELCOME TO SkillUpward' title='Best Online Education Expertise' />
-            <p>SkillUpward: Where elevation meets innovation for success.</p>
+            <p className="slogan">SkillUpward: Where elevation meets innovation for success.</p>
             <div className='button'>
-  <a href='https://example.com/get-started' target='_blank' rel='noopener noreferrer'>
-    <button className='primary-btn'>
-      GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
-    </button>
-  </a>
-  {/* <a href='https://example.com/view-course' target='_blank' rel='noopener noreferrer'>
-    <button>
-      VIEW COURSE - Upcoming <i className='fa fa-long-arrow-alt-right'></i>
-    </button>
-  </a> */}
-</div>
+              <a href='https://example.com/get-started' target='_blank' rel='noopener noreferrer'>
+                <button className='primary-btn'>
+                  GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
+                </button>
+              </a>
+              <br />
+              <br />
+              {/* <a href='https://example.com/view-course' target='_blank' rel='noopener noreferrer'>
+                <button>
+                  VIEW COURSE - Upcoming <i className='fa fa-long-arrow-alt-right'></i>
+                </button>
+              </a> */}
+            </div>
           </div>
         </div>
       </section>

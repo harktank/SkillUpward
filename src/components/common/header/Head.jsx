@@ -17,11 +17,11 @@ const Head = () => {
           </div>
         </div>
         <div className="social-icons">
-  <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f icon"></i></a>
-  <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter icon"></i></a>
-  <a href="https://www.linkedin.com/company/skill-upward" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin icon"></i></a>
-  <a href="https://www.instagram.com/skillupward?igsh=MWZmNDl3aDYxajE5MQ==" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram icon"></i></a>
-</div>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f icon"></i></a>
+          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter icon"></i></a>
+          <a href="https://www.linkedin.com/company/skill-upward" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin icon"></i></a>
+          <a href="https://www.instagram.com/skillupward?igsh=MWZmNDl3aDYxajE5MQ==" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram icon"></i></a>
+        </div>
       </div>
     </section>
   );

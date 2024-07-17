@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Head from "./Head";
 import "./header.css";
+import logo from "../../../assets/logo.jpg"; // Adjust the path as needed
 
 const Header = () => {
   const [click, setClick] = useState(false);
@@ -16,10 +16,18 @@ const Header = () => {
   };
 
   return (
-    <>
-      <Head />
+    <> <br />
+
       <header>
+
         <nav className='flexSB'>
+          <div className="logoContainer">
+            <img src={logo} alt="SkillUpward Logo" />
+            <div className="logo">
+              <h1>SkillUpward</h1>
+              <span>Elevate | Innovate | Succeed</span>
+            </div>
+          </div>
           <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
             <li>
               <Link to='/'>Home</Link>

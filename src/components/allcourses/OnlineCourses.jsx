@@ -8,7 +8,10 @@ const OnlineCourses = () => {
     <>
       <section className='online'>
         <div className='container'>
-          <Heading subtitle='Our Internship' title='Computers & Information Technology Section' />
+          {/* <Heading subtitle='Our Internship' title='Computers & Information Technology Section' /> */}
+          <p className="intern">Our Internship</p>
+          <p className="intern1">Computers & Information Technology Section</p>
+          <br />
           <div className='content grid3'>
             {online.map((val) => (
               <div className='box'>

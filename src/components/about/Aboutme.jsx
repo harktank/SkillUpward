@@ -23,12 +23,15 @@ const AboutMe = () => {
                     </p>
                     <div className="offerings">
                         <h3>What We Offer</h3>
-                        <ul>
-                            <li>Diverse Internship Opportunities: We provide internships in various domains, including Full-Stack Web Development, Data Science, Digital Marketing, and more.</li>
-                            <li>Mentorship and Guidance: Our interns receive personalized mentorship from experienced professionals, helping them navigate their career paths.</li>
-                            <li>Hands-on Experience: Interns at SkillUpward work on real projects, gaining practical skills and insights that are highly valued by employers.</li>
-                        </ul>
+                        <ol>
+                            <li>• Diverse Internship Opportunities: We provide internships in various domains, including Full-Stack Web Development, Data Science, Digital Marketing, and more.</li>
+                            <br />
+                            <li>• Mentorship and Guidance: Our interns receive personalized mentorship from experienced professionals, helping them navigate their career paths.</li>
+                            <br />
+                            <li>• Hands-on Experience: Interns at SkillUpward work on real projects, gaining practical skills and insights that are highly valued by employers.</li>
+                        </ol>
                     </div>
+
                     <p>
                         SkillUpward is committed to maintaining a supportive and inclusive environment where every intern can thrive. We believe in continuous improvement and innovation, constantly evolving to meet the needs of our interns and partners. Join us at SkillUpward and take the first step towards a successful and fulfilling career. Together, let's rise to new heights!
                     </p>
