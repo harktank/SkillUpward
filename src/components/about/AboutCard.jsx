@@ -12,11 +12,11 @@ const AboutCard = () => {
 
         <section id="about" className='aboutHome'>
           <div className='container flexSB'>
-            <div className='left row'>
-              <img src='./images/about.webp' alt='' />
-            </div>
+
             <div className='right row'>
-              <Heading subtitle='LEARN ANYTHING' title='Benefits About Online Learning Expertise' />
+              {/* <Heading subtitle='LEARN ANYTHING' title='Benefits About Online Learning Expertise' /> */}
+              <p className="intern">LEARN ANYTHING</p>
+              <p className="intern1">Benefits About Online Learning Expertise</p>
               <div className='items'>
                 {homeAbout.map((val) => {
                   return (

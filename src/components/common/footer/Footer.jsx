@@ -4,10 +4,9 @@ import "./footer.css";
 const Footer = () => {
   return (
     <>
-
       <footer>
-        <div className='container '>
-          <div className='box logo mt-6'>
+        <div className="container">
+          <div className="box logo">
             <h1>SkillUpward</h1>
             <span>ONLINE EDUCATION & LEARNING</span>
             <p>Elevate. Innovate. Succeed</p>
@@ -19,19 +18,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className='box about'>
-            <h3>About Us</h3>
-            <p>
-              Welcome to SkillUpward, your gateway to a brighter future through meaningful internships. Founded with a vision to bridge the gap between academic learning and professional experience, we are dedicated to providing students with hands-on opportunities that enhance their skills and prepare them for the competitive job market.
-            </p>
-            <p>
-              At SkillUpward, our mission is to empower students by offering high-quality internships that foster professional growth and development. We aim to create a nurturing environment where interns can gain practical experience, receive mentorship from industry experts, and build a strong foundation for their careers.
-            </p>
-            <p>
-              Our long-term vision is to collaborate with colleges and educational institutions to expand our reach and impact. By partnering with academia, we strive to integrate real-world experience with academic knowledge, ensuring that our interns are well-equipped to meet the demands of today's dynamic workforce.
-            </p>
-          </div>
-          <div className='box last'>
+          <div className="box last">
             <h3>Have a Questions?</h3>
             <ul>
               <li>
