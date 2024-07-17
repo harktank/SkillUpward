@@ -1,0 +1,75 @@
+/* General styles */
+.price .new {
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  position: relative; /* Ensure positioning for pseudo-element */
+  overflow: hidden; /* Prevent overflow from the pseudo-element */
+  transition: background-color 0.3s ease, color 0.5s ease; /* Transition for background and text color */
+}
+.price h1 {
+  font-size: 50px;
+  margin: 20px 0;
+  color: #1eb2a6;
+}
+.new:hover {
+  background-color: #1eb2a6;
+  color: white;
+}
+.new:hover .new1 {
+  color: white; /* This targets the .new1 element inside .new on hover */
+  transition: color 0.7s ease; /* Smooth transition for text color */
+}
+
+/* Styling for the animated background lines */
+@keyframes backgroundLines {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.price h1 span {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #000;
+}
+.price p {
+  color: grey;
+  margin: 40px 0;
+}
+
+/* FAQ Section */
+.faq .container {
+  max-width: 70%;
+  border-radius: 5px;
+  margin: 0 auto; /* Center the container */
+}
+.faq .box {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.faq button {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 20px;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+.faq h2 {
+  font-weight: 500;
+}
+.faq p {
+  padding: 20px;
+}
+.faq .accordion:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transition for background and text color */
+}
