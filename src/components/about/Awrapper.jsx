@@ -10,9 +10,10 @@ const Awrapper = () => {
             return (
               <div className='box flex'>
                 <div className='img'>
-                  <img src={val.cover} alt='' />
+                  <img style={{ filter: "invert(100%)" }} src={val.cover} alt='' />
                 </div>
-                <div className='text'>
+
+                <div style={{ color: "black" }} className='text'>
                   <h1>{val.data}</h1>
                   <h3>{val.title}</h3>
                 </div>
