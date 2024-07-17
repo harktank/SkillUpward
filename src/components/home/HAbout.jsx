@@ -8,6 +8,7 @@ const HAbout = () => {
   return (
     <>
       <section className='homeAbout'>
+        <OnlineCourses />
         <div className='container'>
           <Heading subtitle='Commerce Section' title='Commerce Section' />
 
@@ -60,7 +61,7 @@ const HAbout = () => {
             </div>
           </div>
         </div>
-        <OnlineCourses />
+
       </section>
     </>
   )
