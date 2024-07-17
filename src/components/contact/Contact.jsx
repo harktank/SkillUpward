@@ -16,14 +16,14 @@ const Contact = () => {
             <h1>Contact us</h1>
             <p>We're open for any suggestion or just to have a chat</p>
 
-            <div className='items grid2'>
+            <div className='items grid4'>
               <div className='box'>
                 <h4>ADDRESS:</h4>
-                <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                <p>Vishwaniketan Institute of Management Entrepreneurship and Engineering Technology</p>
               </div>
               <div className='box'>
-                <h4>EMAIL:</h4>
-                <p> info@yoursite.com</p>
+                <h4>EMAIL:  </h4>
+                <p> skillupward.in@gmail.com</p>
               </div>
               <div className='box'>
                 <h4>PHONE:</h4>
@@ -31,7 +31,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <form action=''>
+            {/* <form action=''>
               <div className='flexSB'>
                 <input type='text' placeholder='Name' />
                 <input type='email' placeholder='Email' />
@@ -41,7 +41,7 @@ const Contact = () => {
                 Create a message here...
               </textarea>
               <button className='primary-btn'>SEND MESSAGE</button>
-            </form>
+            </form> */}
 
             <h3>Follow us here</h3>
             <span>FACEBOOK TWITTER INSTAGRAM DRIBBBLE</span>

@@ -8,12 +8,12 @@ const HAbout = () => {
   return (
     <>
       <section className='homeAbout'>
+       <OnlineCourses />
         <div className='container'>
-        
 
           
         </div>
-        <OnlineCourses />
+        
       </section>
     </>
   )

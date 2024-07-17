@@ -13,14 +13,14 @@ const Hero = () => {
             <div className='button'>
   <a href='https://example.com/get-started' target='_blank' rel='noopener noreferrer'>
     <button className='primary-btn'>
-      GET STARTED NOW - Upcoming <i className='fa fa-long-arrow-alt-right'></i>
+      GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
     </button>
   </a>
-  <a href='https://example.com/view-course' target='_blank' rel='noopener noreferrer'>
+  {/* <a href='https://example.com/view-course' target='_blank' rel='noopener noreferrer'>
     <button>
       VIEW COURSE - Upcoming <i className='fa fa-long-arrow-alt-right'></i>
     </button>
-  </a>
+  </a> */}
 </div>
           </div>
         </div>
