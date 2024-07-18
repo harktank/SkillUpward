@@ -21,21 +21,21 @@ export const homeAbout = [
 export const awrapper = [
   {
     cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
-    data: "100",
-    title: "SUCCESS STORIES",
+    data: "100+",
+    title: "INTERNS",
   },
 
-  {
-    cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
-    data: "100",
-    title: "TRUSTED TUTORS",
-  },
+  // {
+  //   cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
+  //   data: "100",
+  //   title: "TRUSTED TUTORS",
+  // },
 
-  {
-    cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
-    data: "587",
-    title: "COURSES",
-  },
+  // {
+  //   cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
+  //   data: "587",
+  //   title: "COURSES",
+  // },
 ]
 export const coursesCard = [
   {

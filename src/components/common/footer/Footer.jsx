@@ -1,5 +1,7 @@
 import React from "react";
 import "./footer.css";
+import msmeLogo from "../../../assets/download.png"; // Add the path to your MSME logo image
+
 
 const Footer = () => {
   return (
@@ -34,6 +36,13 @@ const Footer = () => {
                 skillupward.in@gmail.com
               </li>
             </ul>
+          </div>
+          <div className="msmeSection">
+            <img src={msmeLogo} alt="MSME Logo" className="msmeLogo" />
+            <div className="msmeText">
+              <h2>MSME Registered Company: SkillUpward</h2>
+              <span>Registration No:UDYAM-MH-33-0492334</span>
+            </div>
           </div>
         </div>
       </footer>

@@ -8,7 +8,14 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           <div className='row'>
-            <Heading subtitle='WELCOME TO SkillUpward' title='Best Online Education Expertise' />
+            {/* <Heading  subtitle='WELCOME TO SkillUpward' title='Best Online Education Expertise' /> */}
+            <p className="her">WELCOME TO SkillUpward</p>
+            <br />
+            <br />
+            <p className="her1">Best Online Education Expertise</p>
+            <br />
+            <br />
+            <br />
             <p className="slogan">SkillUpward: Where elevation meets innovation for success.</p>
             <div className='button'>
               <a href='https://example.com/get-started' target='_blank' rel='noopener noreferrer'>
