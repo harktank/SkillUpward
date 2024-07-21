@@ -49,15 +49,17 @@ const Header = () => {
               <Link to="/contact">Contact</Link>
             </li>
             <li>
-              <Link to="/pricing">Pricing - Upcoming</Link>
+              <Link to="/process">Process</Link>
+            </li><li>
+              <Link to="/faq">FAQ</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/courses">Our Courses - Upcoming</Link>
-            </li>
+            </li> */}
           </ul>
           <div className="start">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link">
-              <div className="button" style={{ color: "white" }}>GET Internship</div>
+              <div style={{ color: "white" }}>GET Internship</div>
             </a>
           </div>
           <button className="toggle" onClick={() => setClick(!click)}>

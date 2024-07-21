@@ -1,6 +1,6 @@
-import React from "react"
-import Heading from "../../common/heading/Heading"
-import "./Hero.css"
+import React from "react";
+import Heading from "../../common/heading/Heading";
+import "./Hero.css";
 
 const Hero = () => {
   return (
@@ -8,35 +8,22 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           <div className='row'>
-            {/* <Heading  subtitle='WELCOME TO SkillUpward' title='Best Online Education Expertise' /> */}
-            <p className="her">WELCOME TO SkillUpward</p>
+            {/* <Heading subtitle='WELCOME TO SkillUpward' title='Best Online Education Expertise' /> */}
+            <p className="her">Welcome To SkillUpward</p>
             <br />
             <br />
             <p className="her1">Best Online Education Expertise</p>
             <br />
             <br />
-            <br />
-            <p className="slogan">SkillUpward: Where elevation meets innovation for success.</p>
-            <div className='button'>
-              <a href='https://example.com/get-started' target='_blank' rel='noopener noreferrer'>
-                <button className='primary-btn'>
-                  GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
-                </button>
-              </a>
-              <br />
-              <br />
-              {/* <a href='https://example.com/view-course' target='_blank' rel='noopener noreferrer'>
-                <button>
-                  VIEW COURSE - Upcoming <i className='fa fa-long-arrow-alt-right'></i>
-                </button>
-              </a> */}
-            </div>
+
+            <p className="slogan">SkillUpward: Where elevation meets   innovation for success.</p>
+
           </div>
         </div>
       </section>
       <div className='margin'></div>
     </>
-  )
+  );
 }
 
-export default Hero
+export default Hero;

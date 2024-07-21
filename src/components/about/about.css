@@ -92,13 +92,7 @@
   object-fit: cover;
 }
 
-.aboutHome .right {
-  /* padding: 20px;
-   */
-
-   /* padding-top: 30px; */
-}
-
+ 
 .aboutHome .items {
   margin-top: 30px;
 }
@@ -206,3 +200,44 @@
     margin-right: 0;
   }
 }
+
+
+/* animation effect  */
+/* Keyframes for fade-in animations */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Initial state for animations */
+.item {
+  opacity: 0;
+  transform: translateX(0);
+  transition: opacity 0.5s, transform 1s;
+}
+
+.fade-in-left {
+  animation: fadeInLeft 1s forwards;
+}
+
+.fade-in-right {
+  animation: fadeInRight 1s forwards;
+}
+

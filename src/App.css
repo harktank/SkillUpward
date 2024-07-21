@@ -7,10 +7,13 @@
 body {
   font-family: "Roboto", sans-serif;
 
-  background: rgb(213,233,232);
-  background: linear-gradient(0deg, rgba(213,233,232,1) 39%, rgba(218,238,237,1) 94%);
+ 
+ 
+  background: rgb(192,232,230);
+  background: linear-gradient(0deg, rgba(192,232,230,1) 16%, rgba(241,241,241,1) 58%, rgba(192,232,230,1) 95%);
 }
-/*------------global-----------*/
+
+ /*-----------global-----------*/
 .container {
   max-width: 85%;
   margin: auto;
@@ -88,9 +91,9 @@ p {
 }
 
 .back {
-  background-image: url("../public/images/back.webp");
+  background-image: url("../public/images/whattt.jpg");
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   position: absolute;
   top: 0;
   left: 0;
@@ -99,8 +102,17 @@ p {
   height: 100vh;
   padding-top: 30%;
   padding-right: 50px;
-  color: #fff;
+   display: flex;
+   align-items: center;
+justify-content: center;
   text-align: center;
+}
+
+.backt{
+  /* width: 50%; */
+  font-size: 40px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.466);
 }
 .back h1 {
   font-size: 100px;
@@ -140,7 +152,7 @@ p {
 }
 .grid3 {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 10px;
 }
 .padding {
@@ -155,6 +167,13 @@ p {
   .grid3,
   .grid {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .backt{
+    margin-top: 440px;
+    width: 150vh;
+    font-size: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.466);
   }
   .back {
     background-position: center;

@@ -6,11 +6,12 @@ import AboutCard from "./AboutCard"
 const About = () => {
   return (
     <>
-    <div id="about-us">
-
-    
-      <Back title='About Us' />
-      <AboutCard />
+      <div id="about-us">
+        {/* <Back /> */}
+        <br />
+        <br />
+        <br />
+        <AboutCard />
       </div>
     </>
   )

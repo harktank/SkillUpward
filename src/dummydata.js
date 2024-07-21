@@ -6,13 +6,13 @@ export const homeAbout = [
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
-    id: 1,
+    id: 2,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
     title: "Earn A Certificates",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
-    id: 1,
+    id: 3,
     cover: "https://img.icons8.com/ios/80/000000/athlete.png",
     title: "Learn with Expert",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
@@ -167,99 +167,111 @@ export const coursesCard = [
 ]
 export const online = [
   {
+    id: 1,
     cover: "./images/courses/online/o1.png",
     hoverCover: "./images/courses/online/o1.1.png",
     courseName: "Ui/Ux Design",
     course: "Internship",
-    buttonName: "Learn More",
+    buttonName: "Apply Now",
     link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
   },
   {
+    id: 2,
     cover: "./images/courses/online/o2.png",
     hoverCover: "./images/courses/online/o2.1.png",
     courseName: "Graphic designing",
     course: "Internship",
-    buttonName: "Learn More",
+    buttonName: "Apply Now",
     link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
   },
   {
+    id: 3,
     cover: "./images/courses/online/o3.png",
     hoverCover: "./images/courses/online/o3.1.png",
     courseName: "Web Development",
     course: "Internship",
-    buttonName: "Learn More",
+    buttonName: "Apply Now",
     link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
   },
   {
+    id: 4,
     cover: "./images/courses/online/o4.png",
     hoverCover: "./images/courses/online/o4.1.png",
     courseName: "Full Stack Development",
     course: "Internship",
-    buttonName: "Learn More",
+    buttonName: "Apply Now",
     link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
   },
   {
+    id: 5,
     cover: "./images/courses/online/o5.png",
     hoverCover: "./images/courses/online/o5.1.png",
     courseName: "Machine Learning",
     course: "Internship",
-    buttonName: "Learn More",
+    buttonName: "Apply Now",
     link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
   },
   {
+    id: 6,
     cover: "./images/courses/online/o6.png",
     hoverCover: "./images/courses/online/o6.1.png",
     courseName: "Data Science",
     course: "Internship",
-    buttonName: "Learn More",
+    buttonName: "Apply Now",
     link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
   },
   {
+    id: 7,
     cover: "./images/courses/online/o7.png",
     hoverCover: "./images/courses/online/o7.1.png",
     courseName: "C Programming",
     course: "Internship",
-    buttonName: "Learn More",
+    buttonName: "Apply Now",
     link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
   },
   {
+    id: 8,
     cover: "./images/courses/online/o8.png",
     hoverCover: "./images/courses/online/o8.1.png",
     courseName: "Social Media Marketing",
     course: "Internship",
-    buttonName: "Learn More",
+    buttonName: "Apply Now",
     link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
   },
   {
+    id: 9,
     cover: "./images/courses/online/o9.png",
     hoverCover: "./images/courses/online/o9.1.png",
     courseName: "Python Development",
     course: "Internship",
-    buttonName: "Learn More",
+    buttonName: "Apply Now",
     link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
   },
   {
+    id: 10,
     cover: "./images/courses/online/o10.png",
     hoverCover: "./images/courses/online/o10.1.png",
     courseName: "Java Development",
     course: "Internship",
-    buttonName: "Learn More",
+    buttonName: "Apply Now",
     link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
   },
   {
+    id: 11,
     cover: "./images/courses/online/o11.png",
     hoverCover: "./images/courses/online/o11.1.png",
     courseName: "Data Analysis",
     course: "Internship",
-    buttonName: "Learn More",
+    buttonName: "Apply Now",
     link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
   },
   {
+    id: 12,
     cover: "./images/courses/online/o12.png",
     hoverCover: "./images/courses/online/o12.1.png",
     courseName: "Power BI",
     course: "Internship",
-    buttonName: "Learn More",
+    buttonName: "Apply Now",
     link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
   },
 ]
@@ -335,30 +347,35 @@ export const process = [
 
 export const faq = [
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "What is SkillUpward?",
+    desc: "SkillUpward is a platform dedicated to bridging the gap between academic learning and professional experience by offering meaningful internships. We provide students with hands-on opportunities to enhance their skills and prepare for the competitive job market."
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "What types of internships do you offer?",
+    desc: "We offer a diverse range of internship opportunities in various domains, including Full-Stack Web Development, Data Science, Digital Marketing, and more. Each internship is designed to provide practical experience and valuable insights relevant to the field."
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "How does SkillUpward support its interns?",
+    desc: "Interns at SkillUpward receive personalized mentorship from experienced professionals who provide guidance and support throughout their internship. This mentorship helps interns navigate their career paths and develop the skills needed for their future careers."
   },
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "What kind of experience will I gain during an internship at SkillUpward?",
+    desc: "Interns work on real projects that offer practical experience and skills that are highly valued by employers. You will gain hands-on experience, learn industry best practices, and develop a strong foundation for your career."
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "How does SkillUpward collaborate with educational institutions?",
+    desc: "We partner with colleges and educational institutions to expand our reach and impact. By integrating real-world experience with academic knowledge, we ensure that our interns are well-equipped to meet the demands of today’s dynamic workforce."
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "What makes SkillUpward’s internship program unique?",
+    desc: "SkillUpward’s internship program is unique due to its commitment to providing a supportive and inclusive environment. We focus on continuous improvement and innovation, tailoring our programs to meet the evolving needs of our interns and partners."
   },
-]
+  {
+    title: "How can I apply for an internship at SkillUpward?",
+    desc: "To apply for an internship at SkillUpward, visit our website and fill out the application form for the desired internship position. You can also reach out to our team for more information on the application process."
+  }
+];
+
 export const blog = [
   {
     id: 1,

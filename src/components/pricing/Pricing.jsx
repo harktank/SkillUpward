@@ -1,16 +1,17 @@
 import React from "react"
 import Back from "../common/back/Back"
-import PriceCard from "./PriceCard"
+
 import "./price.css"
 import Faq from "./Faq"
+import ProcessCard from "./PriceCard"
 
 const Pricing = () => {
   return (
     <>
-      <Back title='Choose The Right Plan' />
+      {/* <Back title='Choose The Right Plan' /> */}
       <section className='price padding'>
         <div className='container grid'>
-          <PriceCard />
+          <ProcessCard />
         </div>
       </section>
       <Faq />

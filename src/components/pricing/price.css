@@ -70,6 +70,49 @@
 }
 .faq .accordion:hover {
   background-color: #1eb2a6;
-  color: #fff;
+  color: #e3e3e3;
   transition: background-color 0.3s ease, color 0.3s ease; /* Transition for background and text color */
+}
+
+
+/* Keyframes for fade-in animations */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Initial state for animations */
+
+
+/* Media queries for small screens */
+@media (max-width: 768px) {
+  .new {
+    opacity: 0;
+    transform: translateX(0);
+    transition: opacity 0.5s, transform 1s;
+  }
+  .fade-in-left1 {
+    animation: fadeInLeft 1s forwards;
+  }
+
+  .fade-in-right1 {
+    animation: fadeInRight 1s forwards;
+}
 }

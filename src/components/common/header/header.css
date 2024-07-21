@@ -105,6 +105,9 @@ header ul li a:hover {
 }
 
 .start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #1eb2a6;
   padding: 15px 30px;
   color: #fff;
@@ -161,6 +164,7 @@ header ul li a:hover {
     position: absolute;
     right: 0px;
     top: -35px;
+ 
     cursor: pointer;
   }
 
@@ -169,6 +173,7 @@ header ul li a:hover {
     top: 60px;
     left: 0;
     width: 100%;
+    z-index:10;
     background-color: #1eb2a6;
   }
 }

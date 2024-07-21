@@ -7,10 +7,13 @@ const CourseHome = () => {
   return (
     <>
       <div id="course-home">
-        <Back title='Explore Courses' />
+        {/* <Back title='Explore Courses' /> */}
+        <br />
+        <br />
+        <br />
         <OnlineCourses />
-        <CoursesCard />
-       
+        {/* <CoursesCard /> */}
+
       </div>
     </>
   )
