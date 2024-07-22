@@ -4,6 +4,9 @@ import "./header.css";
 import logo from "../../../assets/logo.jpg"; // Adjust the path as needed
 import msmeLogo from "../../../assets/download.png"; // Add the path to your MSME logo image
 
+import { TiThMenu } from "react-icons/ti";
+import { IoClose } from "react-icons/io5";
+
 const Header = () => {
   const [click, setClick] = useState(false);
 
@@ -49,19 +52,21 @@ const Header = () => {
               <Link to="/contact">Contact</Link>
             </li>
             <li>
-              <Link to="/pricing">FAQ & Process</Link>
+              <Link to="/process">Process</Link>
+            </li><li>
+              <Link to="/faq">FAQ</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/courses">Our Courses - Upcoming</Link>
-            </li>
+            </li> */}
           </ul>
           <div className="start">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link">
-              <div className="button" style={{ color: "white" }}>GET Internship</div>
+              <div style={{ color: "white" }}>GET Internship</div>
             </a>
           </div>
           <button className="toggle" onClick={() => setClick(!click)}>
-            {click ? <i className="fa fa-times"></i> : <i className="fa fa-bars"></i>}
+            {click ? <IoClose /> : <TiThMenu />}
           </button>
         </nav>
       </header>
