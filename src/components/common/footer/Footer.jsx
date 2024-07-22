@@ -1,6 +1,9 @@
 import React from "react";
 import "./footer.css";
 import msmeLogo from "../../../assets/download.png"; // Add the path to your MSME logo image
+import { FaFacebook, FaFacebookSquare, FaInstagramSquare, FaLinkedinIn, FaTwitter, FaTwitterSquare } from "react-icons/fa";
+import { AiFillTwitterCircle } from "react-icons/ai";
+import { GrLinkedin } from "react-icons/gr";
 
 
 const Footer = () => {
@@ -12,11 +15,14 @@ const Footer = () => {
             <h1>SkillUpward</h1>
             <span>ONLINE EDUCATION & LEARNING</span>
             <p>Elevate. Innovate. Succeed</p>
-            <div className="social-icons">
-              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f icon"></i></a>
-              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter icon"></i></a>
-              <a href="https://www.linkedin.com/company/skill-upward" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin icon"></i></a>
-              <a href="https://www.instagram.com/skillupward?igsh=MWZmNDl3aDYxajE5MQ==" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram icon"></i></a>
+            <div className="social-iconsd">
+              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookSquare size={40} fill="#1eb2a6" />
+              </a>
+              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"> <FaTwitterSquare
+                size={40} fill="#1eb2a6" />
+              </a>
+              <a href="https://www.linkedin.com/company/skill-upward" target="_blank" rel="noopener noreferrer"> <GrLinkedin size={37} fill="#1eb2a6" /> </a>
+              <a href="https://www.instagram.com/skillupward?igsh=MWZmNDl3aDYxajE5MQ==" target="_blank" rel="noopener noreferrer"><FaInstagramSquare size={40} fill="#1eb2a6" /></a>
             </div>
           </div>
 
