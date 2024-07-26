@@ -1,25 +1,36 @@
+
 export const homeAbout = [
   {
     id: 1,
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
     title: "Online Courses",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    desc: "Explore a vast selection of online courses designed to help you gain new skills and knowledge from the comfort of your home.",
   },
   {
     id: 2,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-    title: "Earn A Certificates",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    title: "Earn A Certificate",
+    desc: "Complete our courses and earn certificates that validate your skills and boost your career prospects.",
   },
   {
     id: 3,
     cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-    title: "Learn with Expert",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    title: "Learn with Experts",
+    desc: "Gain insights and guidance from industry experts who will help you navigate your learning journey effectively.",
   },
-]
+  {
+    id: 4,
+    cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
+    title: "100+ Interns",
+    desc: "Join a vibrant community of interns, each bringing their unique talents and ideas to collaborative projects and learning experiences.",
+  },
+];
+
+
+
 export const awrapper = [
   {
+
     cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
     data: "100+",
     title: "INTERNS",
@@ -173,7 +184,8 @@ export const online = [
     courseName: "Ui/Ux Design",
     course: "Internship",
     buttonName: "Apply Now",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link",
+    category: "designing"
   },
   {
     id: 2,
@@ -182,7 +194,8 @@ export const online = [
     courseName: "Graphic designing",
     course: "Internship",
     buttonName: "Apply Now",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link",
+    category: "designing"
   },
   {
     id: 3,
@@ -191,7 +204,8 @@ export const online = [
     courseName: "Web Development",
     course: "Internship",
     buttonName: "Apply Now",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link",
+    category: "computer"
   },
   {
     id: 4,
@@ -200,7 +214,8 @@ export const online = [
     courseName: "Full Stack Development",
     course: "Internship",
     buttonName: "Apply Now",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link",
+    category: "computer"
   },
   {
     id: 5,
@@ -209,7 +224,8 @@ export const online = [
     courseName: "Machine Learning",
     course: "Internship",
     buttonName: "Apply Now",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link",
+    category: "aiml"
   },
   {
     id: 6,
@@ -218,7 +234,8 @@ export const online = [
     courseName: "Data Science",
     course: "Internship",
     buttonName: "Apply Now",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link",
+    category: "aiml"
   },
   {
     id: 7,
@@ -227,7 +244,8 @@ export const online = [
     courseName: "C Programming",
     course: "Internship",
     buttonName: "Apply Now",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link",
+    category: "computer"
   },
   {
     id: 8,
@@ -236,7 +254,8 @@ export const online = [
     courseName: "Social Media Marketing",
     course: "Internship",
     buttonName: "Apply Now",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link",
+    category: "computer"
   },
   {
     id: 9,
@@ -245,7 +264,8 @@ export const online = [
     courseName: "Python Development",
     course: "Internship",
     buttonName: "Apply Now",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link",
+    category: "aiml"
   },
   {
     id: 10,
@@ -254,7 +274,8 @@ export const online = [
     courseName: "Java Development",
     course: "Internship",
     buttonName: "Apply Now",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link",
+    category: "computer"
   },
   {
     id: 11,
@@ -263,7 +284,8 @@ export const online = [
     courseName: "Data Analysis",
     course: "Internship",
     buttonName: "Apply Now",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link",
+    category: "aiml"
   },
   {
     id: 12,
@@ -272,9 +294,51 @@ export const online = [
     courseName: "Power BI",
     course: "Internship",
     buttonName: "Apply Now",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link",
+    category: "aiml"
   },
-]
+  {
+    id: 13,
+    cover: "./images/courses/online/o3.png",
+    hoverCover: "./images/courses/online/o3.1.png",
+    courseName: "Autocad",
+    course: "Internship",
+    buttonName: "Apply Now",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link",
+    category: "civil"
+  },
+  {
+    id: 14,
+    cover: "./images/courses/online/o6.png",
+    hoverCover: "./images/courses/online/o6.1.png",
+    courseName: "Staad pro",
+    course: "Internship",
+    buttonName: "Apply Now",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link",
+    category: "civil"
+  },
+  {
+    id: 15,
+    cover: "./images/courses/online/o3.png",
+    hoverCover: "./images/courses/online/o3.1.png",
+    courseName: "Revit Structure",
+    course: "Internship",
+    buttonName: "Apply Now",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link",
+    category: "civil"
+  },
+  {
+    id: 16,
+    cover: "./images/courses/online/o9.png",
+    hoverCover: "./images/courses/online/o9.1.png",
+    courseName: "SolidWorks",
+    course: "Internship",
+    buttonName: "Apply Now",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link",
+    category: "mech"
+  }
+];
+
 export const team = [
   {
     cover: "./images/team/t1.webp",

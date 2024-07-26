@@ -17,15 +17,15 @@ const About = () => {
 `;
   return (
     <>
-      <Wrapper>
-        <div id="about-us">
-          {/* <Back /> */}
-          <br />
-          <br />
-          <br />
-          <AboutCard />
-        </div>
-      </Wrapper>
+
+      <div id="about-us">
+        {/* <Back /> */}
+        <br />
+        <br />
+        <br />
+        <AboutCard />
+      </div>
+
     </>
   )
 }

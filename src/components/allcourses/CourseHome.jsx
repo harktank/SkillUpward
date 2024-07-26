@@ -17,18 +17,18 @@ const CourseHome = () => {
 `;
   return (
     <>
-      <Wrapper>
-        <div id="course-home">
-          {/* <Back title='Explore Courses' /> */}
-          <br />
-          <br />
-          <br />
-          <OnlineCourses />
 
-          {/* <CoursesCard /> */}
+      <div id="course-home">
+        {/* <Back title='Explore Courses' /> */}
+        <br />
+        <br />
+        <br />
+        <OnlineCourses />
 
-        </div>
-      </Wrapper>
+        {/* <CoursesCard /> */}
+
+      </div>
+
     </>
   )
 }

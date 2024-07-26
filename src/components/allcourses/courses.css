@@ -253,7 +253,7 @@
 
 
 /* Media queries for small screens */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .helo {
     opacity: 0;
     transform: translateX(0);
@@ -266,4 +266,46 @@
   .fade-in-right1 {
     animation: fadeInRight 1s forwards;
 }
+} */
+
+/* Existing CSS */
+
+/* Categories */
+.categories {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
+
+.category-button {
+  background-color: #f8f8f8;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #1eb2a6;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.category-button.active,
+.category-button:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 768px) {
+  .categories {
+    flex-wrap: wrap;
+  }
+
+  .category-button {
+    margin: 5px 10px;
+    font-size: 14px;
+  }
+}
+
+/* Other existing styles */

@@ -19,18 +19,18 @@ const Pricing = () => {
 `;
   return (
     <>
-      <Wrapper>
-        {/* <Back title='Choose The Right Plan' /> */}
-        <br />
-        <br />
-        <section className='price paddin'>
-          <div className='container grid'>
 
-            <ProcessCard />
-          </div>
-        </section>
-        <Faq />
-      </Wrapper>
+      {/* <Back title='Choose The Right Plan' /> */}
+      <br />
+      <br />
+      <section className='price paddin'>
+        <div className='container grid'>
+
+          <ProcessCard />
+        </div>
+      </section>
+      <Faq />
+
     </>
   )
 }

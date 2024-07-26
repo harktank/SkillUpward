@@ -52,10 +52,11 @@ const AboutCard = () => {
               <div className="items">
                 {homeAbout.map((val, index) => {
                   return (
-                    <div className="item flexSB" key={index}>
+                    <div className="item flexSB1" key={index}>
                       <div className="img">
-                        <img src={val.cover} alt="" />
+                        <img src={val.cover} alt="" style={val.id === 4 ? { filter: "invert(100%)" } : {}} />
                       </div>
+                      <span style={{ marginRight: "0px" }}></span>
                       <div className="text">
                         <h2>{val.title}</h2>
                         <p>{val.desc}</p>
@@ -70,7 +71,7 @@ const AboutCard = () => {
       </div>
       <br />
       <br />
-      <Awrapper />
+      {/* <Awrapper /> */}
       <AboutMe />
     </>
   );
