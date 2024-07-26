@@ -44,7 +44,10 @@ const ProcessCard = () => {
           <h4>Step {val.step}: {val.title}</h4>
           <p className="new1">{val.desc}</p>
         </div>
+
       ))}
+      <br />
+      <br />
     </>
   );
 }

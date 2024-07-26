@@ -9,6 +9,7 @@ import { GrLinkedin } from "react-icons/gr";
 const Footer = () => {
   return (
     <>
+
       <footer>
         <div className="container">
           <div className="box logo">

@@ -1,4 +1,4 @@
-/* header.css */
+/* Existing CSS styles here */
 
 body {
   font-family: Arial, sans-serif;
@@ -142,10 +142,19 @@ header ul li a:hover {
   }
 
   header ul.mobile-nav {
-    display: block;
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+
+  header ul.mobile-nav.open {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
   }
 
   header ul li {
@@ -164,7 +173,6 @@ header ul li a:hover {
     position: absolute;
     right: 0px;
     top: -35px;
- 
     cursor: pointer;
   }
 
@@ -173,7 +181,7 @@ header ul li a:hover {
     top: 60px;
     left: 0;
     width: 100%;
-    z-index:10;
+    z-index: 10;
     background-color: #1eb2a6;
   }
 }

@@ -25,7 +25,7 @@ const Header = () => {
         <img src={msmeLogo} alt="MSME Logo" className="msmeLogo" />
         <div className="msmeText">
           <h2>MSME Registered Company: SkillUpward</h2>
-          <span>Registration No:UDYAM-MH-33-0492334</span>
+          <span>Registration No: UDYAM-MH-33-0492334</span>
         </div>
       </div>
 
@@ -38,7 +38,7 @@ const Header = () => {
               <span>Elevate | Innovate | Succeed</span>
             </div>
           </div>
-          <ul className={click ? "mobile-nav" : "flexSB"} onClick={() => setClick(false)}>
+          <ul className={`flexSB ${click ? 'mobile-nav open' : 'mobile-nav'}`} onClick={() => setClick(false)}>
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -53,12 +53,10 @@ const Header = () => {
             </li>
             <li>
               <Link to="/process">Process</Link>
-            </li><li>
+            </li>
+            <li>
               <Link to="/faq">FAQ</Link>
             </li>
-            {/* <li>
-              <Link to="/courses">Our Courses - Upcoming</Link>
-            </li> */}
           </ul>
           <div className="start">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLScvb-pxBomubgdOEWGKA8cQCpE-eVNz18pQJInXtQSNdbK0iw/viewform?usp=sf_link">

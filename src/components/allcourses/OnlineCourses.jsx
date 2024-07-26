@@ -67,6 +67,9 @@ const OnlineCourses = () => {
           </div>
         </div>
       </section>
+      <br />
+      <br />
+      <br />
     </>
   );
 }
