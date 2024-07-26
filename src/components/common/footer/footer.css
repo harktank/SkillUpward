@@ -1,6 +1,6 @@
 /* General Footer Styles */
 footer {
-  background-color: #eeeeee;
+  /* background-color: #8fc0bd; */
   text-align: center;
   margin-top: 50px;
   padding: 50px 20px;
@@ -124,8 +124,8 @@ footer .msmeText span {
 .legal {
   text-align: center;
   padding: 20px 0;
-  color: grey;
-  background-color: #e9e9e9;
+  color: rgb(255, 255, 255);
+  background-color: #131313;
 }
 
 .legal p {

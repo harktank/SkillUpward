@@ -194,3 +194,17 @@
     padding: 8px 16px;
   }
 }
+
+.faqss{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faqss button:hover{
+  background-color:aqua;
+  color: white;
+}
+.faqss button:active {
+  background-color: rgb(0, 247, 255);
+}

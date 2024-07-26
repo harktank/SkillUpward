@@ -10,8 +10,19 @@ body {
  
  
   background: rgb(192,232,230);
-  background: linear-gradient(0deg, rgba(192,232,230,1) 16%, rgba(241,241,241,1) 58%, rgba(192,232,230,1) 95%);
+  background: linear-gradient(0deg, rgba(192,232,230,1) 16%, rgba(241,241,241,1) 58%, rgba(125, 219, 248, 0.63) 95%);
 }
+@media screen and (max-width: 768px) {
+  body {
+    font-family: "Roboto", sans-serif;
+  
+   
+   
+    background: rgb(192,232,230);
+    background: linear-gradient(0deg, rgba(201, 223, 236, 0.724) 16%, rgba(241,241,241,1) 58%, rgba(201, 209, 255, 0.911) 95%);
+  }
+}
+
 
  /*-----------global-----------*/
 .container {
@@ -72,7 +83,7 @@ button:hover {
 /*------------global-----------*/
 #heading {
   text-align: center;
-  padding: 40px 0;
+  /* padding: 40px 0; */
 }
 #heading h3 {
   font-weight: 600;
@@ -81,7 +92,7 @@ button:hover {
   text-transform: uppercase;
 }
 #heading h1 {
-  font-size: 45px;
+  font-size: 35px;
   margin: 20px 0;
   text-transform: capitalize;
 }
@@ -156,7 +167,7 @@ justify-content: center;
   grid-gap: 10px;
 }
 .padding {
-  padding: 80px 0;
+  padding: 1px 0;
 }
 .shadow {
   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
