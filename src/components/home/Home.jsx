@@ -49,16 +49,15 @@ const Home = () => {
         <Testimonal />
       </Wrapper2>
 
-      <Wrapper3>
-        <Hprice />
-        <div className="faqss">
-          <button>
-            <Link to="/faq">FAQ</Link>
-          </button>
-        </div>
-        <br />
-        <br />
-      </Wrapper3>
+
+      <Hprice />
+      <div className="faqss">
+        <button>
+          <Link to="/faq">FAQ</Link>
+        </button>
+      </div>
+
+
     </>
   );
 };
