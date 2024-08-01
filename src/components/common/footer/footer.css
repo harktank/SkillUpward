@@ -101,6 +101,28 @@ footer .last ul li {
   align-items: center;
 }
 
+footer .msmeSection {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+footer .msmeLogo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+footer .msmeText h2 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+footer .msmeText span {
+  font-size: 14px;
+  color: grey;
+}
+
 .legal {
   text-align: center;
   padding: 20px 0;
@@ -145,7 +167,7 @@ footer .last ul li {
     grid-template-columns: 1fr;
   }
 
-  footer .logo,
+  footer .box,
   footer .last {
     text-align: center;
   }
@@ -160,5 +182,15 @@ footer .last ul li {
 
   .legal {
     padding: 10px 0;
+  }
+
+  footer .msmeSection {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer .msmeLogo {
+    margin: 0 0 10px 0;
   }
 }
