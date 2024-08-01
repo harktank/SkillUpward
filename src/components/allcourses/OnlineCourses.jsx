@@ -86,10 +86,8 @@ const OnlineCourses = () => {
                   <img src={val.hoverCover} alt="Hover Cover" className="show" />
                 </div>
                 <h1>{val.courseName}</h1>
-                <span>{val.course}</span>
-                <br />
-                <br />
-                <br />
+                {/* <span>{val.course}</span> */}
+
                 <a className="aaa" href={val.link} target="_blank" rel="noreferrer">
                   <div className="lili">{val.buttonName}</div>
                 </a>

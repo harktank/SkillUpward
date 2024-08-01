@@ -79,20 +79,22 @@
 
 /* online */
 .online {
+  /* z-index: 100; */
   text-align: center;
 }
 
 .online .box {
-  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+  box-shadow:0 5px 25px -2px rgb(0 0 0 / 25%);
+  border-radius: 20px;
   background-color: #fff;
-  padding: 30px 20px;
+  padding: 5px;
   transition: 0.5s;
   margin-bottom: 20px; /* Added for spacing between cards on smaller screens */
 }
 
 .online .img {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   margin: auto;
   position: relative;
 }
@@ -122,6 +124,7 @@
 .lili{
   background-color: #f8f8f8;
   padding: 15px 20px;
+  margin-top: -10px;
   font-weight: 500;
   font-size: 15px;
   max-width: 120px;
