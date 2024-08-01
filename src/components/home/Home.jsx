@@ -6,6 +6,7 @@ import Hero from "./hero/Hero";
 import Hprice from "./Hprice";
 import Testimonal from "./testimonal/Testimonal";
 import styled from "styled-components";
+import OnlineCourses from "../allcourses/OnlineCourses";
 
 const Home = () => {
   const Wrapper1 = styled.div`
@@ -35,19 +36,35 @@ const Home = () => {
   `;
 
   return (
+
     <>
       <Hero />
 
-      <Wrapper1>
-        <AboutCard />
-      </Wrapper1>
 
+
+      {/* 
       <Wrapper2>
         <HAbout />
         <br />
         <br />
+        <br />
+      </Wrapper2> */}
+      <Wrapper2>
         <Testimonal />
+        <br />
+        <br />
       </Wrapper2>
+      <br />
+      <br />
+      <Wrapper2>
+        <OnlineCourses />
+      </Wrapper2>
+
+
+
+      <Wrapper1>
+        <AboutCard />
+      </Wrapper1>
 
 
       <Hprice />

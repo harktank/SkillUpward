@@ -42,7 +42,7 @@ const ProcessCard = () => {
       {process.map((val) => (
         <div className="new shadow" key={val.step}>
           <h4>Step {val.step}: {val.title}</h4>
-          <p className="new1">{val.desc}</p>
+          {/* <p className="new1">{val.desc}</p> */}
         </div>
 
       ))}

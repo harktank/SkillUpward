@@ -10,6 +10,9 @@ import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
 import Faq from "./components/pricing/Faq"
+import Projects from "./components/Projects/Project"
+import Services from "./components/Services/Services"
+import ProjectDetail from "./components/Projects/ProjectDetail"
 function App() {
   return (
     <>
@@ -24,6 +27,9 @@ function App() {
           <Route exact path='/faq' component={Faq} />
           <Route exact path='/journal' component={Blog} />
           <Route exact path='/contact' component={Contact} />
+          <Route exact path='/projects' component={Projects} />
+          <Route exact path='/project/:id' component={ProjectDetail} />
+          <Route exact path='/services' component={Services} />
         </Switch>
         <Footer />
       </Router>
