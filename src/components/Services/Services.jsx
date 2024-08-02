@@ -16,10 +16,10 @@ const services = [
 
 const Services = () => {
     useEffect(() => {
-        const items = document.querySelectorAll(".service-card");
+        if (window.innerWidth <= 768) { // Only add animations on small screens
+            const items = document.querySelectorAll(".service-card1");
 
-        const observer = new IntersectionObserver(
-            (entries) => {
+            const observer = new IntersectionObserver((entries) => {
                 entries.forEach((entry) => {
                     const index = Array.from(items).indexOf(entry.target);
 
@@ -36,19 +36,20 @@ const Services = () => {
                         observer.unobserve(entry.target);
                     }
                 });
-            },
-            {
-                threshold: 0.5,
-            }
-        );
+            }, {
+                threshold: 0.5
+            });
 
-        items.forEach((item) => {
-            observer.observe(item);
-        });
+            items.forEach((item) => {
+                observer.observe(item);
+            });
 
-        return () => {
-            observer.disconnect();
-        };
+            return () => {
+                items.forEach((item) => {
+                    observer.unobserve(item);
+                });
+            };
+        }
     }, []);
 
     return (
@@ -57,7 +58,7 @@ const Services = () => {
                 <h2 className="services-title">Our Services</h2>
                 <div className="services-grid">
                     {services.map((service, index) => (
-                        <div className="service-card" key={index}>
+                        <div className="service-card service-card1" key={index}>
                             <div className="service-icon">{service.icon}</div>
                             <h3 className="service-name">{service.name}</h3>
                         </div>
