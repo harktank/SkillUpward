@@ -1,129 +1,223 @@
 /* projectDetail.css */
+.project-detail {
+  padding: 4rem 1rem;
+}
 
-body {
-    font-family: "Arial", sans-serif;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    /* background-color: #f4f4f4; */
+.container11 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.project-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: #444;
+  font-weight: bold;
+}
+
+.project-carousel {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.project-description,
+.project-tech-stack,
+.project-awards {
+  /* margin-top: 3rem; */
+  padding: 0 1rem;
+}
+
+.project-description ul,
+.project-tech-stack ul,
+.project-awards ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.project-description li,
+.project-tech-stack li,
+.project-awards li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+h3 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #555;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+/* Increase specificity for arrows */
+.project-carousel .slick-prev:before,
+.project-carousel .slick-next:before {
+  font-family: 'slick';
+  font-size: 42px;
+  line-height: 1;
+  opacity: 0.75;
+  color: black; /* Default color */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hover effect with higher specificity */
+.project-carousel .slick-prev:hover:before,
+.project-carousel .slick-next:hover:before {
+  color: #0c0b0b; /* Hover color */
+}
+
+/* Position adjustments with higher specificity */
+.project-carousel .slick-prev {
+  top: 40%;
+  left: -40px; /* Adjust position */
+  z-index: 1;
+}
+
+.project-carousel .slick-next {
+  top: 40%;
+  right: -30px; /* Adjust position */
+  z-index: 1;
+}
+
+
+@media (max-width: 768px) {
+  .project-carousel .slick-prev {
+    font-size: 25px;
+    top: 30%;
+    left: -35px; /* Adjust position */
+    z-index: 1;
   }
   
-  .project-detail {
-    padding: 4rem 1rem;
-  }
-  
-  .container11 {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-    /* background-color: #fff; */
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    animation: fadeIn 0.5s ease-in-out;
-  }
-  
-  .project-title {
-    text-align: center;
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-    color: #444;
-    font-weight: bold;
-  }
-  
-  .project-images {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1rem;
-    padding: 1rem;
-    animation: slideIn 0.7s ease-in-out;
+  .project-carousel .slick-next {
+    top: 30%;
+    right: -20px; /* Adjust position */
+    z-index: 1;
   }
   
   .project-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-    cursor: pointer;
+      width: 100%;
   }
-  
-  .project-image:hover {
-    transform: scale(1.05);
-  }
-  
+
   .project-description,
   .project-tech-stack,
   .project-awards {
-    margin-top: 3rem;
-    padding: 0 1rem;
+      padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  
+  .project-carousel .slick-prev {
+    
+    top: 30%;
+    left: -35px; /* Adjust position */
+    z-index: 1;
   }
   
-  .project-description ul,
-  .project-tech-stack ul,
-  .project-awards ul {
-    list-style-type: disc;
-    padding-left: 20px;
+  .project-carousel .slick-next {
+    top: 30%;
+    right: -20px; /* Adjust position */
+    z-index: 1;
   }
   
+  .project-title {
+      font-size: 2rem;
+  }
+
   .project-description li,
   .project-tech-stack li,
   .project-awards li {
-    margin-bottom: 0.5rem;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-  
-  h3 {
-    margin-bottom: 1rem;
-    font-size: 1.8rem;
-    color: #555;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(10px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  @keyframes slideIn {
-    from {
-      opacity: 0;
-      transform: translateX(-10px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .project-image {
-      width: 100%;
-    }
-  
-    .project-description,
-    .project-tech-stack,
-    .project-awards {
-      padding: 0 0.5rem;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .project-title {
-      font-size: 2rem;
-    }
-  
-    .project-description li,
-    .project-tech-stack li,
-    .project-awards li {
       font-size: 0.9rem;
-    }
   }
-  
+}
+/* Add these styles to projectDetail.css */
+
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.tech-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333; /* Default icon color */
+  font-size: 24px;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+}
+
+.tech-icon:hover {
+  background-color: #007bff; /* Color on hover */
+  color: #fff; /* Icon color on hover */
+}
+
+.tech-name {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #333; /* Default text color */
+  font-weight: bold;
+}
+
+.tech-icon.react {
+  color: #61dafb; /* React color */
+}
+
+.tech-icon.nodejs {
+  color: #68a063; /* Node.js color */
+}
+
+.tech-icon.express {
+  color: #000000; /* Express.js color */
+}
+
+.tech-icon.mongodb {
+  color: #4DB33D; /* MongoDB color */
+}
+
+.tech-icon.nextjs {
+  color: #000000; /* Next.js color */
+}
+
+.tech-icon.ml {
+  color: #FF5722; /* Machine Learning color */
+}
+.award-item{
+  display: flex;
+  align-items: center;
+
+}
+

@@ -42,13 +42,13 @@ const Home = () => {
 
 
 
-      {/* 
+
       <Wrapper2>
         <HAbout />
         <br />
         <br />
         <br />
-      </Wrapper2> */}
+      </Wrapper2>
       <Wrapper2>
         <Testimonal />
         <br />
