@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Slider from "react-slick";
 import "./projectDetail.css";
@@ -106,12 +106,17 @@ const techIcons = {
 
 const ProjectDetail = () => {
     const { id } = useParams();
-    const project = projectDetails[id];
+    const [project, setProject] = useState(null);
+
+    useEffect(() => {
+        // Simulate data fetching
+        const fetchedProject = projectDetails[id];
+        setProject(fetchedProject);
+    }, [id]);
 
     if (!project) {
-        return <div className="not-found">Project not found</div>;
+        return <div className="not-found">Loading...</div>;
     }
-
     const settings = {
         dots: true,
         infinite: true,
