@@ -31,7 +31,7 @@ const Footer = () => {
               <span>ONLINE EDUCATION & LEARNING</span>
               <p>Elevate. Innovate. Succeed</p>
               <div className="social-iconsd">
-                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookSquare size={40} fill="#1eb2a6" />
+                <a href="https://www.facebook.com/profile.php?id=61562850598812" target="_blank" rel="noopener noreferrer"><FaFacebookSquare size={40} fill="#1eb2a6" />
                 </a>
                 <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"> <FaTwitterSquare
                   size={40} fill="#1eb2a6" />
