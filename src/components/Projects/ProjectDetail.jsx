@@ -106,18 +106,17 @@ const techIcons = {
 
 const ProjectDetail = () => {
     const { id } = useParams();
-  const [project, setProject] = useState(null);
+    const [project, setProject] = useState(null);
 
-  useEffect(() => {
-    // Simulate data fetching
-    const fetchedProject = projectDetails[id];
-    setProject(fetchedProject);
-  }, [id]);
+    useEffect(() => {
+        // Simulate data fetching
+        const fetchedProject = projectDetails[id];
+        setProject(fetchedProject);
+    }, [id]);
 
-  if (!project) {
-    return <div className="not-found">Loading...</div>;
-  }
-
+    if (!project) {
+        return <div className="not-found">Loading...</div>;
+    }
     const settings = {
         dots: true,
         infinite: true,
