@@ -193,4 +193,8 @@ footer .msmeText span {
   footer .msmeLogo {
     margin: 0 0 10px 0;
   }
+  .foot{
+    margin-top: -150px;
+  }
 }
+

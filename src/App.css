@@ -9,8 +9,8 @@ body {
 
  
  
-  background: rgb(192,232,230);
-  background: linear-gradient(0deg, rgb(199, 218, 241) 16%, rgb(245, 232, 232) 58%, rgba(125, 219, 248, 0.63) 95%);
+  background: rgb(232, 192, 229);
+  background: linear-gradient(0deg, rgb(199, 218, 241) 16%, rgb(245, 232, 232) 58%, rgba(0, 143, 112, 0.406) 95%);
 }
 @media screen and (max-width: 768px) {
   body {
