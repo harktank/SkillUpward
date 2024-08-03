@@ -7,28 +7,28 @@ import one2 from "../../assets/Aniket_Projects/Railway/one.jpg";
 
 export const projects = [
     {
-        id: 7712113, // Unique random ID
+        id: 7712113,
         name: "KnowledgeFlow Platform",
         image: one,
         description: "The KnowledgeFlow Platform is a sophisticated Unified Learning Management System ,And",
         link: "#",
     },
     {
-        id: 7712114, // Unique random ID
+        id: 7712114,
         name: "E-commerce Website",
         image: one1,
         description: "The E-commerce Website is designed to offer a seamless shopping experience with a user-friendly interface and advanced product management features. Built with a modern tech stack",
         link: "#",
     },
     {
-        id: 7712115, // Unique random ID
+        id: 7712115,
         name: "Project Gamma",
         image: one2,
         description: "The Railway Reservation System is a robust and efficient web application designed to streamline the process of booking train tickets. This system caters to the needs of passengers by providing a s",
         link: "#",
     },
     // {
-    //     id: 7712116, // Unique random ID
+    //     id: 7712116,
     //     name: "Project Delta",
     //     image: "https://via.placeholder.com/600x400",
     //     description: "A brief description of Project Delta. Innovations in cloud computing.",
@@ -47,9 +47,9 @@ const Projects = () => {
 
     useEffect(() => {
         const options = {
-            root: null, // Use the viewport
+            root: null,
             rootMargin: '0px',
-            threshold: 0.1 // Trigger when 10% of the element is visible
+            threshold: 0.1
         };
 
         const observer = new IntersectionObserver((entries) => {
@@ -62,11 +62,16 @@ const Projects = () => {
             });
         }, options);
 
-        projectRefs.current.forEach(ref => observer.observe(ref));
+        // Observe all elements currently referenced
+        projectRefs.current.forEach(ref => {
+            if (ref) observer.observe(ref);
+        });
 
-        // Clean up the observer on component unmount
+        // Cleanup function to unobserve all elements
         return () => {
-            projectRefs.current.forEach(ref => observer.unobserve(ref));
+            projectRefs.current.forEach(ref => {
+                if (ref) observer.unobserve(ref);
+            });
         };
     }, []);
 

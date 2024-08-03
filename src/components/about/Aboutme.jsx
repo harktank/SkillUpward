@@ -1,43 +1,53 @@
-// AboutMe.js
-
 import React from 'react';
-import Heading from '../common/heading/Heading';
 import './about.css'; // Import your existing CSS file for styling
 
 const AboutMe = () => {
     return (
         <section id="about-me" className="aboutMe">
             <div className="container">
-                {/* <Heading subtitle="About Us" /> */}
-                <p style={{ color: "#0b9cd7", fontSize: "25px", fontWeight: 600 }}>ABOUT US</p>
+                <div className="header">
+                    <h2 className="about-title">About Us</h2>
+                    <p className="about-subtitle">Empowering Futures Through Innovation</p>
+                </div>
 
                 <div className="content">
-                    <p>
-                        Welcome to SkillUpward, your gateway to a brighter future through meaningful internships. Founded with a vision to bridge the gap between academic learning and professional experience, we are dedicated to providing students with hands-on opportunities that enhance their skills and prepare them for the competitive job market.
-                    </p>
-                    <p>
-                        At SkillUpward, our mission is to empower students by offering high-quality internships that foster professional growth and development. We aim to create a nurturing environment where interns can gain practical experience, receive mentorship from industry experts, and build a strong foundation for their careers.
-                    </p>
-                    <p>
-                        Our long-term vision is to collaborate with colleges and educational institutions to expand our reach and impact. By partnering with academia, we strive to integrate real-world experience with academic knowledge, ensuring that our interns are well-equipped to meet the demands of today's dynamic workforce.
-                    </p>
-                    {/* <div className="offerings">
-                        <h3>What We Offer</h3>
-                        <ol>
-                            <li>• Diverse Internship Opportunities: We provide internships in various domains, including Full-Stack Web Development, Data Science, Digital Marketing, and more.</li>
-                            <br />
-                            <li>• Mentorship and Guidance: Our interns receive personalized mentorship from experienced professionals, helping them navigate their career paths.</li>
-                            <br />
-                            <li>• Hands-on Experience: Interns at SkillUpward work on real projects, gaining practical skills and insights that are highly valued by employers.</li>
-                        </ol>
-                    </div> */}
+                    <div className="about-highlight">
+                        <h3 className='h33' >What We Do</h3>
+                        <p>
+                            Welcome to SkillUpward, where we blend academic excellence with real-world experience. We offer cutting-edge virtual internships and comprehensive IT solutions designed to equip you for success in today’s fast-paced digital world.
+                        </p>
+                    </div>
 
-                    <p>
-                        SkillUpward is committed to maintaining a supportive and inclusive environment where every intern can thrive. We believe in continuous improvement and innovation, constantly evolving to meet the needs of our interns and partners. Join us at SkillUpward and take the first step towards a successful and fulfilling career. Together, let's rise to new heights!
-                    </p>
+                    <div className="about-services">
+                        <div className="service">
+                            <h4>Virtual Internships</h4>
+                            <p>
+                                Embrace flexibility with our remote internship programs. Gain hands-on experience and mentorship from industry leaders, all from the comfort of your own home.
+                            </p>
+                        </div>
+                        <div className="service">
+                            <h4>IT Solutions</h4>
+                            <p>
+                                From website development to custom applications, our expert team delivers tailor-made IT solutions that drive innovation and growth for businesses of all sizes.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="about-vision">
+                        <h3>Our Vision</h3>
+                        <p>
+                            We aim to bridge the gap between academia and industry by partnering with educational institutions and businesses. Our goal is to provide valuable experience and innovative IT solutions that empower both individuals and organizations.
+                        </p>
+                    </div>
+
+                    <div className="about-commitment">
+                        <p>
+                            At SkillUpward, we are dedicated to fostering a supportive and inclusive environment. We continuously evolve to meet the needs of our community, ensuring that every participant and client thrives. Join us on this journey and let’s rise to new heights together!
+                        </p>
+                    </div>
                 </div>
             </div>
-        </section >
+        </section>
     );
 };
 

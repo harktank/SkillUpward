@@ -5,6 +5,7 @@ import "./price.css"
 import Faq from "./Faq"
 import ProcessCard from "./PriceCard"
 import styled from "styled-components";
+import Heading from "../common/heading/Heading"
 
 
 const Pricing = () => {
@@ -25,6 +26,7 @@ const Pricing = () => {
       <br />
       <section className='price paddin'>
         <div className='container grid'>
+          {/* <Heading subtitle='OUR Process' title='Step by Step Guide' /> */}
 
           <ProcessCard />
         </div>

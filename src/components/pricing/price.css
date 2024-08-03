@@ -43,9 +43,9 @@
 
 /* FAQ Section */
 .faq .container {
-  max-width: 70%;
+  max-width: 50%;
   border-radius: 5px;
-  margin: 0 auto; /* Center the container */
+  margin: 0 auto;  
 }
 .faq .box {
   background-color: #fff;
@@ -103,6 +103,11 @@
 
 /* Media queries for small screens */
 @media (max-width: 768px) {
+  .faq .container {
+    max-width: 90%;
+    border-radius: 5px;
+    margin: 0 auto;  
+  }
   .new {
     opacity: 0;
     transform: translateX(0);
